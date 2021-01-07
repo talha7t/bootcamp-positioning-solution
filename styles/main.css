@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------------HEADER--------------------------*/
+
+.header {
+  background-color: #1e1b1b;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+/*-------------------RELATIVE POSITIONING SECTION-----------------------*/
+
+.relative-heading {
+  text-align: center;
+  margin: 20px 0; /* top & bottom, left & right*/
+}
+
+.images-container {
+  height: 400px;
+}
+
+.image-container {
+  height: 200px;
+  width: 20vw;
+  position: relative;
+}
+
+.box2 {
+  left: 20vw;
+}
+
+.box3 {
+  left: 40vw;
+  bottom: 400px;
+}
+
+.box4 {
+  left: 60vw;
+  bottom: 400px;
+}
+
+.box5 {
+  left: 80vw;
+  bottom: 800px;
+}
+
+.relative-image {
+  height: 100%;
+  width: 100%;
+}
+
+/*-----------------ABSOLUTE POSITIONING SECTION--------------------*/
+
+.absolute-heading {
+  text-align: center;
+  color: white;
+  background-color: #1e1b1b;
+  padding: 20px 0;
+}
+
+.images-container-absolute {
+  position: relative;
+  background-color: #1e1b1b !important;
+  height: 1000px;
+}
+
+.image-container-absolute {
+  height: 200px;
+  width: 20vw;
+  position: absolute;
+}
+
+.image-absolute {
+  height: 100%;
+  width: 100%;
+}
+
+/* Positioning of absolute positioned elements */
+
+.a-box1 {
+  left: 0;
+  top: 0;
+}
+
+.a-box2 {
+  left: 20vw;
+  top: 200px;
+}
+
+.a-box3 {
+  left: 40vw;
+  top: 400px;
+}
+
+.a-box4 {
+  left: 60vw;
+  top: 200px;
+}
+
+.a-box5 {
+  left: 80vw;
+}
+
+.a-box6 {
+  top: 600px;
+  left: 20vw;
+}
+
+.a-box7 {
+  top: 800px;
+}
+
+.a-box8 {
+  left: 60vw;
+  top: 600px;
+}
+
+.a-box9 {
+  left: 80vw;
+  top: 800px;
+}
